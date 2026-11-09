@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{ 
+    text-align: center;
+    margin: 180px;
+    background: linear-gradient(to right,rgb(237, 145, 160),rgb(250, 111, 134),rgb(234, 111, 132),rgb(247, 93, 118),rgb(213, 66, 91),rgb(210, 92, 112));
+ }
+ img{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+ }
+ button{
+    font-size: 20px;
+    background:linear-gradient(to left ,rgb(235, 153, 180),rgb(231, 105, 147) );
+    border-radius: 40px;
+    padding: 15px;
+    width: 390px;
+    cursor: pointer;
+    border:none
+ }
+ button:hover{
+   transform: scale(1.05);
+ }
+ 
